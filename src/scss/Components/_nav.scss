@@ -1,0 +1,33 @@
+.menu{
+    position: relative;
+    width: 100%;
+    background-color: $color-bg-menu;
+    border-top: 2px solid $color-border-menu;
+    border-bottom: 1px solid $color-border-menu;
+    nav{
+        #navbarSupportedContent{
+            ul.navbar-nav li{
+                padding: 7px 10px;
+                white-space: nowrap;
+                border-left:2px solid $color-border-menu; 
+            }
+            ul.navbar-nav li:first-child{
+                border-left: none;
+            }
+            ul.navbar-nav li a{
+                text-decoration: none;
+                text-transform: uppercase;
+                color: $color-white;
+                font-size: 11px;
+                font-family: 'Arial';
+            }
+            ul.navbar-nav li a.primary{
+                color: $color-primary;
+            }
+            ul.navbar-nav li.active{
+                background-color: $color-a-active;
+                border: none;
+            }
+        }
+    }
+}

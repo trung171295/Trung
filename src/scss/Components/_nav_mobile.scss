@@ -1,0 +1,29 @@
+.nav-top{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+    li{
+        margin-top: 5px;
+        padding: 0 5px;
+        a{
+            width: 100%;
+            padding: 0;
+            display: inline-grid;
+            white-space: nowrap;
+            font-size: 11px;
+            text-transform: uppercase;
+            color: saddlebrown;
+            img{
+                width: 20px;
+                height: 20px;
+                margin: auto;
+            }
+            span{
+                margin-top: 5px;
+                text-align: center;
+            }
+        }
+    }
+}

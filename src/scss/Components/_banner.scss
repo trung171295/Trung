@@ -1,0 +1,10 @@
+.banner{
+    width: 100%;
+    overflow: hidden;
+    .single-item{
+        width: 100%;
+        .slick-slide{
+            outline: none;
+        }
+    }
+}

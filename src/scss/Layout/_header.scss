@@ -1,0 +1,48 @@
+    .header-top{
+        min-height: 50px;
+        padding: 10px 0;
+        overflow: hidden;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        background-color: $color-header-top;
+        .logo{
+            float: left;
+            width: 32%;
+            margin: 0 auto;
+            img.logo-img{
+                padding: 0 33px;
+                width: 100%;
+            }
+        }
+        .ads-top{
+            float: right;
+            width: 68%;
+            img.ads-img{
+                width: 100%;
+            }
+        }
+    }
+    .chirl-menu{
+        background-color: $color-bg-chirl-menu;
+        border-top: 1px solid $color-border;
+        border-bottom: 1px solid $color-border;
+        ul.chirl li{
+            padding: 2px 8px;
+            white-space: nowrap;
+        }
+        ul.chirl li::before{
+            content: "•";
+            color:$color-style-type;
+            font-size: 18px;
+        }
+        ul.chirl li:first-child::before{
+        content: '';
+        }
+        ul.chirl li a{
+            text-decoration: none;
+            color:$color-text-chirl-menu;
+            padding:0 5px;
+        }
+    }
