@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="libs/slick/css/slick.css">
     <link rel="stylesheet" href="libs/slick/css/slick-theme.css">
     <link rel="stylesheet" href="css/video-js.css">
-    <link rel="stylesheet" href="css/style_mobile.css">
+    <link rel="stylesheet" href="css/index_mobile.css">
+    <link rel="stylesheet" href="css/menu_mobile.css" />
 </head>
 
 <body>
@@ -21,48 +22,110 @@
     <header class="menu">
         <div class="menu-primary">
             <div class="logo">
-                <img src="images/logo.png" alt="" class="img-fluid">
+                <img src="images/logo.png" alt="" class="img-fluid" />
             </div>
             <div class="nav-primary">
-                <ul class="nav">
+                <ul class="nav nav-top">
                     <li class="nav-item">
-                        <a href="#" class="nav-link">
-                            <img src="images/icon_m1.png" alt="">
-                            tin tức
+                        <a href="#" class="nav-link"><img src="images/icon_m1.png" alt="" /> <span>tin tức</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">
-                            <img src="images/icon_m3.png" alt="">
-                            pháp luật
+                        <a href="#" class="nav-link"><img src="images/icon_m3.png" alt="" /> <span>pháp luật</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">
-                            <img src="images/icon_m4.png" alt="">
-                            du lịch
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">
-                            <img src="images/icon_m3.png" alt="">
-                            bóng đá
+                        <a href="#" class="nav-link"><img src="images/icon_m2.png" alt="" /> <span>bóng đá</span>
                         </a>
                     </li>
                 </ul>
             </div>
-            <div class="btnBar">
-                <img src="images/icon_5.png" alt="">
-                <span>Menu</span>
+            <div class="btnBar" id="pageslide">
+                <a><i class="fas fa-bars"></i> Menu</a>
             </div>
+        </div>
+        <div class="menu-mobile">
+            <div id="wrapper-menu-mobile">
+                <div class="wrapper">
+                    <ul>
+                        <li class="first">
+                            <a href="#">
+                                <img src="images/logo_1.png" alt=""> <button id="bt-fechar-menu"><span
+                                        class="">X</span></button>
+                                <div class="clear"></div>
+                            </a>
+                        </li>
+                        <li class="tab">
+                            <a href="#">
+                                ITEM 1
+                                <ul class="dropdown">
+                                    <li><a href="#">ITEM 2</a></li>
+                                    <li><a href="#">ITEM 2</a></li>
+                                    <li><a href="#">ITEM 2</a></li>
+                                    <li><a href="#">ITEM 2</a></li>
+                                </ul>
+                            </a>
+                        </li>
+                        <li><a href="#">ITEM 2</a></li>
+                        <li class="tab">
+                            <a href="#">
+                                ITEM 1
+                                <ul class="dropdown">
+                                    <li><a href="#">ITEM 2</a></li>
+                                    <li><a href="#">ITEM 2</a></li>
+                                    <li><a href="#">ITEM 2</a></li>
+                                    <li><a href="#">ITEM 2</a></li>
+                                </ul>
+                            </a>
+                        </li>
+                        <li><a href="#">ITEM 4</a></li>
+                        <li><a href="#">ITEM 5</a></li>
+                        <li class="tab">
+                            <a href="#">
+                                ITEM 1
+                                <ul class="dropdown">
+                                    <li><a href="#">ITEM 2</a></li>
+                                    <li><a href="#">ITEM 2</a></li>
+                                    <li><a href="#">ITEM 2</a></li>
+                                    <li><a href="#">ITEM 2</a></li>
+                                </ul>
+                            </a>
+                        </li>
+                        <li class="tab">
+                            <a href="#">
+                                ITEM 1
+                                <ul class="dropdown">
+                                    <li><a href="#">ITEM 2</a></li>
+                                    <li><a href="#">ITEM 2</a></li>
+                                    <li><a href="#">ITEM 2</a></li>
+                                    <li><a href="#">ITEM 2</a></li>
+                                </ul>
+                            </a>
+                        </li>
+                        <li class="tab">
+                            <a href="#">
+                                ITEM 1
+                                <ul class="dropdown">
+                                    <li><a href="#">ITEM 2</a></li>
+                                    <li><a href="#">ITEM 2</a></li>
+                                    <li><a href="#">ITEM 2</a></li>
+                                    <li><a href="#">ITEM 2</a></li>
+                                </ul>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="block-menu-mobile"></div>
+            </div>
+        </div>
+        <div class="ads">
+            <img src="images/ads.jpg" alt="">
         </div>
     </header>
     <!-- end header -->
     <!-- main -->
     <section class="main">
-        <div class="ads">
-            <img src="images/ads.jpg" alt="">
-        </div>
+
         <!-- news-hot -->
         <div class="news-hot">
             <div class="item-hot">
@@ -70,13 +133,12 @@
                     <img src="images/img_1.jpg" alt="">
                     <div class="title-group">
                         <p class="focal">tiêu điểm</p>
-                        <p class="default-name">Thời sự</p>
                     </div>
                 </div>
                 <div class="item-content">
                     <div class="container">
                         <div class="hot-headline">
-                            <h1>Mảng cầu Tân Phú sẽ biến mất ?</h1>
+                            <h1><a href="#">Mảng cầu Tân Phú sẽ biến mất ?</a></h1>
                         </div>
                         <div class="push-date">
                             <p>21/01/2019 - 8:32</p>
@@ -91,7 +153,7 @@
             </div>
             <div class="item-sub">
                 <div class="container">
-                    <ul class="nav">
+                    <ul class="nav nav-item-sub">
                         <li class="nav-item">
                             <a href="#" class="nav-link">Triệu phú mảng cầu xiêm</a>
                         </li>
@@ -108,17 +170,14 @@
                 <div class="container">
                     <div class="item-child">
                         <div class="item-child-img">
-                            <img src="images/img_2.jpg" alt="">
+                            <a href="#"><img src="images/img_2.jpg" alt=""></a>
                         </div>
                         <div class="item-content">
+                            <div class="item-child-headline">
+                                <h1><a href="#">U23 VN - Myanmar 2-0: Chiến thắng của hiệu quả và quyết tâm</a></h1>
+                            </div>
                             <div class="title-group">
                                 <p class="default-name">Tin thể thao</p>
-                            </div>
-                            <div class="item-child-headline">
-                                <h1>U23 VN - Myanmar 2-0: Chiến thắng của hiệu quả và quyết tâm</h1>
-                            </div>
-                            <div class="push-date">
-                                <p>21/0/2019 - 8:32</p>
                             </div>
                         </div>
                     </div>
@@ -270,6 +329,29 @@
             </div>
         </div>
         <!-- end new-hot -->
+        <div class="list-first-hot-item">
+            <div class="container">
+                <div class="list-first-item">
+                    <div class="first-hot-item">
+                        <h3><a href="#">Hợp quốc hội đại biểu lần thứ 2</a></h3>
+                    </div>
+                    <div class="first-hot-item">
+                        <h3><a href="#">Những tiến sĩ trẻ nhất thế giới, ví dụ điển hình của "con nhà người ta"</a></h3>
+                    </div>
+                    <div class="first-hot-item">
+                        <h3><a href="#">Siêu kinh điển Real – Barcelona: Bản lĩnh vua knock-out đấu “hung thần”
+                                Messi</a></h3>
+                    </div>
+                    <div class="first-hot-item">
+                        <h3><a href="#">CLIP: Tổng bí thư, Chủ tịch nước Nguyễn Phú Trọng tiếp Tổng thống Trump trước
+                                thượng đỉnh Mỹ-Triều</a></h3>
+                    </div>
+                    <div class="first-hot-item">
+                        <h3><a href="#">Không lực Một chở ông Trump đến Việt Nam tiêu tốn bao nhiêu?</a></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- ads -->
         <div class="ads">
             <img src="images/banner_1.jpg" alt="">
@@ -279,39 +361,23 @@
         <div class="category">
             <div class="container">
                 <div class="menu-category">
-                    <ul class="nav nav-ctg">
-                        <li class="nav-item">Thời sự</li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Chính trị</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Xã hội</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Phóng sự</a>
-                        </li>
-                    </ul>
-                    <div class="btnBar">
-                        <img src="images/icon_5.png" alt="">
-                        <span>Menu</span>
-                    </div>
+                    <h3>Thời sự</h3>
                 </div>
                 <div class="category-content">
                     <div class="item-category">
-                        <div class="item-category-img">
-                            <img src="images/img_14.jpg" alt="">
+                        <div class="category-headline">
+                            <h3><a href="#">Quốc hội họp riêng về tình hình biển Đông</a></h3>
                         </div>
                         <div class="item-category-content">
-                            <div class="category-headline">
-                                <h3>Quốc hội họp riêng về tình hình biển Đông</h3>
-                            </div>
-                            <div class="push-date">
-                                <p>21/01/2019 - 8:42</p>
+                            <div class="item-category-img">
+                                <img src="images/img_14.jpg" alt="">
                             </div>
                             <div class="item-category-summary">
-                                <p>Trong thông cáo báo chí phát đi chiều 10.6, Đoàn thư ký kỳ họp thứ năm, Quốc hội
-                                    khóa XIII cho biết chiều nay - 11.6, Quốc hội sẽ có phiên họp riêng nghe báo cáo
-                                    tình hình, diễn biến mới về biển Đông. Đây là một thay đổi so...</p>
+                                <p>Trong thông cáo báo chí phát đi chiều 10.6, Đoàn thư ký kỳ họp t
+                                </p>
+                                <div class="push-date">
+                                    <p>21/01/2019 - 8:42</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -337,100 +403,58 @@
                                     <a href="#" class="nav-link">Công bố kết quả tín nhiệm 47 chức danh chủ chốt</a>
                                 </li>
                             </ul>
-                            <div class="load-more">
-                                <a href="#">Xem thêm <i class="fas fa-long-arrow-alt-right"></i></a>
-                            </div>
                         </div>
                         <div class="item-category-child">
-                            <div class="item-child-img">
-                                <img src="images/img_6.jpg" alt="">
-                            </div>
-                            <div class="item-child-headline">
-                                <p>Tăng lương - Bài toán khó của Chính phủ</p>
-                            </div>
-                            <div class="push-date">
-                                <p>21/01/2019 - 8:42</p>
-                            </div>
+                            <ul class="nav nav-item-category-child">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        Tăng lương bài toán khó của chính phủ
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        Tăng lương bài toán khó của chính phủ
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        Tăng lương bài toán khó của chính phủ
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        Tăng lương bài toán khó của chính phủ
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        Tăng lương bài toán khó của chính phủ
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        Tăng lương bài toán khó của chính phủ
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        Tăng lương bài toán khó của chính phủ
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        Tăng lương bài toán khó của chính phủ
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        Tăng lương bài toán khó của chính phủ
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="item-category-child">
-                            <div class="item-child-img">
-                                <img src="images/img_6.jpg" alt="">
-                            </div>
-                            <div class="item-child-headline">
-                                <p>Tăng lương - Bài toán khó của Chính phủ</p>
-                            </div>
-                            <div class="push-date">
-                                <p>21/01/2019 - 8:42</p>
-                            </div>
-                        </div>
-                        <div class="item-category-child">
-                            <div class="item-child-img">
-                                <img src="images/img_6.jpg" alt="">
-                            </div>
-                            <div class="item-child-headline">
-                                <p>Tăng lương - Bài toán khó của Chính phủ</p>
-                            </div>
-                            <div class="push-date">
-                                <p>21/01/2019 - 8:42</p>
-                            </div>
-                        </div>
-                        <div class="item-category-child">
-                            <div class="item-child-img">
-                                <img src="images/img_6.jpg" alt="">
-                            </div>
-                            <div class="item-child-headline">
-                                <p>Tăng lương - Bài toán khó của Chính phủ</p>
-                            </div>
-                            <div class="push-date">
-                                <p>21/01/2019 - 8:42</p>
-                            </div>
-                        </div>
-                        <div class="item-category-child">
-                            <div class="item-child-img">
-                                <img src="images/img_6.jpg" alt="">
-                            </div>
-                            <div class="item-child-headline">
-                                <p>Tăng lương - Bài toán khó của Chính phủ</p>
-                            </div>
-                            <div class="push-date">
-                                <p>21/01/2019 - 8:42</p>
-                            </div>
-                        </div>
-                        <div class="item-category-child">
-                            <div class="item-child-img">
-                                <img src="images/img_6.jpg" alt="">
-                            </div>
-                            <div class="item-child-headline">
-                                <p>Tăng lương - Bài toán khó của Chính phủ</p>
-                            </div>
-                            <div class="push-date">
-                                <p>21/01/2019 - 8:42</p>
-                            </div>
-                        </div>
-                        <div class="item-category-child">
-                            <div class="item-child-img">
-                                <img src="images/img_6.jpg" alt="">
-                            </div>
-                            <div class="item-child-headline">
-                                <p>Tăng lương - Bài toán khó của Chính phủ</p>
-                            </div>
-                            <div class="push-date">
-                                <p>21/01/2019 - 8:42</p>
-                            </div>
-                        </div>
-                        <div class="item-category-child">
-                            <div class="item-child-img">
-                                <img src="images/img_6.jpg" alt="">
-                            </div>
-                            <div class="item-child-headline">
-                                <p>Tăng lương - Bài toán khó của Chính phủ</p>
-                            </div>
-                            <div class="push-date">
-                                <p>21/01/2019 - 8:42</p>
-                            </div>
-                        </div>
-                        <div class="bntLoadmore">
-                            <button class="btn btn-loadmore">Xem thêm</button>
+                        <div class="bntLoadmorext">
+                            <h3><a href="#"><i class="fas fa-long-arrow-alt-right"></i> Xem thêm</a></h3>
                         </div>
                     </div>
                 </div>
@@ -767,7 +791,8 @@
             </div>
             <div class="first-video">
                 <figure class="figure">
-                    <video id="vid1" class="video-js vjs-default-skin" controls data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=xjS6SftYQaQ"}], "youtube": { "customVars": { "wmode": "transparent" } } }'>
+                    <video id="vid1" class="video-js vjs-default-skin" controls
+                        data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=xjS6SftYQaQ"}], "youtube": { "customVars": { "wmode": "transparent" } } }'>
                     </video>
                     <figcaption class="figure-caption">
                         <h3 class="t-title">Thể thao</h3>
@@ -783,7 +808,8 @@
                 <div class="owl-carousel owl-theme">
                     <div class="item">
                         <figure class="figure">
-                            <video id="vid1" class="video-js vjs-default-skin" controls data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=xjS6SftYQaQ"}], "youtube": { "customVars": { "wmode": "transparent" } } }'>
+                            <video id="vid1" class="video-js vjs-default-skin" controls
+                                data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=xjS6SftYQaQ"}], "youtube": { "customVars": { "wmode": "transparent" } } }'>
                             </video>
                             <figcaption class="figure-caption">
                                 <p><a href="#">Giải thể thao năm 2013 công đoàn các cơ quan, đơn vị trực thuộc
@@ -793,7 +819,8 @@
                     </div>
                     <div class="item">
                         <figure class="figure">
-                            <video id="vid1" class="video-js vjs-default-skin" controls data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=xjS6SftYQaQ"}], "youtube": { "customVars": { "wmode": "transparent" } } }'>
+                            <video id="vid1" class="video-js vjs-default-skin" controls
+                                data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=xjS6SftYQaQ"}], "youtube": { "customVars": { "wmode": "transparent" } } }'>
                             </video>
                             <figcaption class="figure-caption">
                                 <p><a href="#">Giải thể thao năm 2013 công đoàn các cơ quan, đơn vị trực thuộc
@@ -803,7 +830,8 @@
                     </div>
                     <div class="item">
                         <figure class="figure">
-                            <video id="vid1" class="video-js vjs-default-skin" controls data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=xjS6SftYQaQ"}], "youtube": { "customVars": { "wmode": "transparent" } } }'>
+                            <video id="vid1" class="video-js vjs-default-skin" controls
+                                data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=xjS6SftYQaQ"}], "youtube": { "customVars": { "wmode": "transparent" } } }'>
                             </video>
                             <figcaption class="figure-caption">
                                 <p><a href="#">Giải thể thao năm 2013 công đoàn các cơ quan, đơn vị trực thuộc
@@ -813,7 +841,8 @@
                     </div>
                     <div class="item">
                         <figure class="figure">
-                            <video id="vid1" class="video-js vjs-default-skin" controls data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=xjS6SftYQaQ"}], "youtube": { "customVars": { "wmode": "transparent" } } }'>
+                            <video id="vid1" class="video-js vjs-default-skin" controls
+                                data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=xjS6SftYQaQ"}], "youtube": { "customVars": { "wmode": "transparent" } } }'>
                             </video>
                             <figcaption class="figure-caption">
                                 <p><a href="#">Giải thể thao năm 2013 công đoàn các cơ quan, đơn vị trực thuộc
@@ -823,7 +852,8 @@
                     </div>
                     <div class="item">
                         <figure class="figure">
-                            <video id="vid1" class="video-js vjs-default-skin" controls data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=xjS6SftYQaQ"}], "youtube": { "customVars": { "wmode": "transparent" } } }'>
+                            <video id="vid1" class="video-js vjs-default-skin" controls
+                                data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=xjS6SftYQaQ"}], "youtube": { "customVars": { "wmode": "transparent" } } }'>
                             </video>
                             <figcaption class="figure-caption">
                                 <p><a href="#">Giải thể thao năm 2013 công đoàn các cơ quan, đơn vị trực thuộc
@@ -833,7 +863,8 @@
                     </div>
                     <div class="item">
                         <figure class="figure">
-                            <video id="vid1" class="video-js vjs-default-skin" controls data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=xjS6SftYQaQ"}], "youtube": { "customVars": { "wmode": "transparent" } } }'>
+                            <video id="vid1" class="video-js vjs-default-skin" controls
+                                data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=xjS6SftYQaQ"}], "youtube": { "customVars": { "wmode": "transparent" } } }'>
                             </video>
                             <figcaption class="figure-caption">
                                 <p><a href="#">Giải thể thao năm 2013 công đoàn các cơ quan, đơn vị trực thuộc
@@ -1437,13 +1468,15 @@
     <!-- footer -->
     <footer>
         <div class="logo-footer">
-           <a href="#"><img src="images/logo_1.png" alt=""></a> 
+            <a href="#"><img src="images/logo_1.png" alt=""></a>
         </div>
         <div class="copy-right">
             <p>© 2005 Bản quyền thuộc về Báo Lao Động Đồng Nai điện tử</p>
             <p>Cơ quan chủ quản: Tỉnh ủy Đồng Nai</p>
-            <p>Giấy phép số 357/GP-BVHTT của Bộ văn hóa - Thông tin cấp ngày 27-6-2001 - Tổng biên tập: Trần Huy Thanh</p>
-            <p>Địa chỉ: 15 Võ Thị Sáu, TP Biên Hòa, tỉnh Đồng Nai - Điện thoại: (061) 3942427 - Email: toasoanbdn@gmail.com</p>
+            <p>Giấy phép số 357/GP-BVHTT của Bộ văn hóa - Thông tin cấp ngày 27-6-2001 - Tổng biên tập: Trần Huy Thanh
+            </p>
+            <p>Địa chỉ: 15 Võ Thị Sáu, TP Biên Hòa, tỉnh Đồng Nai - Điện thoại: (061) 3942427 - Email:
+                toasoanbdn@gmail.com</p>
             <p>Ghi rõ nguồn Báo Đồng Nai khi bạn phát hành lại thông tin từ website này</p>
         </div>
     </footer>
@@ -1454,9 +1487,10 @@
     <script src="js/popper.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="libs/slick/js/slick.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/mobile.js"></script>
     <script src="js/video.js"></script>
     <script src="js/Youtube.min.js"></script>
+    <script src="js/menu_mobile.js"></script>
     <!-- end import file js -->
 </body>
 

@@ -554,9 +554,10 @@ body {
 .btnBar {
   width: 10%;
   text-align: center;
-  margin-top: 5px;
+  margin-top: 3px;
   margin-right: 5px;
   text-transform: uppercase;
+  color: saddlebrown;
   box-sizing: border-box; }
   .btnBar a {
     font-size: 11px;
@@ -608,7 +609,7 @@ body {
   background-color: #474747; }
 
 @media only screen and (min-width: 991px) {
-  .menu-mobile #openPageslide {
+  .menu-mobile #pageslide {
     display: none; }
   .menu-mobile #pageslide {
     display: block !important; }
@@ -625,12 +626,12 @@ body {
   .menu-mobile .navBox .dropNav {
     position: static;
     background: #0F80B8; }
-  .menu-mobile #openPageslide {
+  .menu-mobile #pageslide {
     display: block;
     padding: 14px 10px;
     width: 28px;
     border-radius: 6px; }
-  .menu-mobile #openPageslide span {
+  .menu-mobile #pageslide span {
     height: 7px;
     display: block;
     border: 1px solid #0F80B8;
