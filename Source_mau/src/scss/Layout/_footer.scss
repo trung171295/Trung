@@ -1,0 +1,76 @@
+.footer_top{
+    background-color: #2869ac;
+    .nav_footer_top{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        li{
+            a{
+                padding: 0;
+                padding: 15px 5px;
+                color:#fff;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+.menu_footer{
+    background-color: #0b2c4e;
+    .nav_menu_footer{
+        display: flex;
+        li{
+            width: 50%;
+            a{
+                color: #ffffff;
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+        }
+    }
+    .nav__footer_child{
+        display: block;
+        padding-left: 20px;
+        li{
+            a{
+                color: #88b0d9;
+                line-height: 18px;
+                text-transform: initial;
+            }
+        }
+    }
+}
+.footer_bottom{
+    background-color: #0b2c4e;
+    ._logo_footer{
+        img{
+            object-fit: cover;
+        }
+    }
+    ._company_title,._address,._phone,._scg{
+        h3{
+            text-align: center;
+            font-size: 11px;
+            font-family: Arial;
+            color: #88b0d9;
+        }
+    }
+    ._address p{
+        color: #ffffff;
+        font-weight: bold;
+    }
+    ._scg{
+        display: flex;
+        justify-content: center;
+    }
+}
+.copyright{
+    background-color: #020202;
+    color: #414142;
+    text-align: center;
+    h3{
+        font-size: 11px;
+        margin: 0;
+        padding: 7px 0;
+    }
+}

@@ -1,0 +1,14 @@
+.pagi{
+    display: flex;
+    justify-content: center;
+}
+.pagination{
+    justify-content: center;
+    .page-link{
+        border:none;
+        color: #969a9d;
+    }
+    .page-link.disabled{
+        color: #e38b08;
+    }
+}

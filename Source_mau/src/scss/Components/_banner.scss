@@ -1,0 +1,52 @@
+.slideshow{
+    width: 100%;
+    overflow: hidden;
+    .slider_item img{
+        height: 145px;
+        width: 100%;
+    }
+}
+.slick-dots {
+    position: absolute;
+    bottom: 0px;
+    display: block;
+    color: #fff;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 18px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #084bfe;
+}
+.slick-dotted.slick-slider{
+    margin-bottom: 15px;
+}
+
+// banner
+
+
+.banner{
+    img{
+        width: 100%;
+        height: 145px;
+    }
+}

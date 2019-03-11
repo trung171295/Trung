@@ -1,0 +1,40 @@
+.content_body{
+    p{
+        line-height: 15px;
+        font-size: 12px;
+    }
+    img{
+        width: 100%;
+        object-fit: contain;
+    }
+    margin-bottom: 25px;
+}
+.list_item-lasted_page_details_title{
+    border-bottom: 1px solid #000;
+    h3{
+        color: #000;
+    }
+}
+.list_item_content{
+    margin-bottom: 25px;
+    margin-top: 25px;
+    .item_page{
+        margin-right: 10px;
+        .item_page_img{
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+        .item_page_title{
+            h3{
+                font-size: 14px;
+                a{
+                    text-decoration: none;
+                    color: #000;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}

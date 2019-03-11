@@ -1,0 +1,21 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    color: #757676;
+    margin: 0;
+}
+.container{
+    padding: 0 10px!important;
+}
+.main{
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box;
+}
+.col-6{
+    padding: 0;
+}
